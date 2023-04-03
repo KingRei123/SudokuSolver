@@ -1,0 +1,9 @@
+{% extends 'base.html' %} {% block title %}
+<title>Input field</title>
+
+{% endblock %} {% block body %}
+<div id="container"></div>
+
+<div id="board">{% for item in board %} {{item}} {% endfor %}</div>
+
+{% endblock %}
