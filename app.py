@@ -18,6 +18,7 @@ def index():
 
 @app.route('/input', methods=['POST','GET'])
 def input():
+  
     if request.method == 'POST':
         pass
     return render_template('input.html', board=board)
